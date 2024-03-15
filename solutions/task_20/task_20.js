@@ -1,0 +1,15 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.allItems = exports.languages = exports.rivers = exports.mountains = exports.cities = exports.countries = void 0;
+exports.countries = ["USA", "Canada", "Germany", "Japan", "Australia"];
+console.log(exports.countries);
+exports.cities = ["New York", "Paris", "Tokyo", "Sydney", "Dubai"];
+console.log(exports.cities);
+exports.mountains = ["Mount Everest", "K2", "Matterhorn", "Kilimanjaro", "Mount Fuji"];
+console.log(exports.mountains);
+exports.rivers = ["Nile", "Amazon", "Yangtze", "Mississippi", "Danube"];
+console.log(exports.rivers);
+exports.languages = ["English", "Spanish", "Mandarin", "Hindi", "Arabic"];
+console.log(exports.languages);
+exports.allItems = [exports.countries, exports.cities, exports.mountains, exports.rivers, exports.languages];
+console.log(exports.allItems);
