@@ -1,3 +1,3 @@
 // testing file
 
-console.log("Hello World! hkdsdk");
+console.log(10);
